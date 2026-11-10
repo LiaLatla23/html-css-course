@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Twitter text box
+    </title>
+        <style>
+        
+      div {
+        display: inline-block;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(200, 200, 200);
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+      }
+
+
+      .pfp {
+        width: 50px;
+        border-radius: 100%;
+        vertical-align: middle;
+      }
+
+      .message {
+        width: 200px;
+        padding: 8px;
+        border: none;
+        font-size: 14px;
+      }
+
+      .tweet {
+        border-radius: 20px;
+        width: 65px;
+        height: 30px;
+        color: white;
+        background-color: #1da1f2;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div>
+      <img class="pfp" src="images.jpg"/>
+    <input class="message" type="text" placeholder="What's happening?"/>
+    <button class="tweet">Tweet</button>
+    </div>
+  </body>
+</html>
